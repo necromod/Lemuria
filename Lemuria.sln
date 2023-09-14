@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lemuria.DTO", "Lemuria.DTO\Lemuria.DTO.csproj", "{EBE0BBFE-7CE3-45CD-BB61-47BB3C6EFCC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lemuria.DAL", "Lemuria.DAL\Lemuria.DAL.csproj", "{EA74A1CB-D991-4618-A2E8-1F890DB46556}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lemuria.API", "Lemuria.API\Lemuria.API.csproj", "{D0F1DD21-2E92-4816-B14E-DDB428C44F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemuria.BLL", "Lemuria.BLL\Lemuria.BLL.csproj", "{AA4E9DFD-CB8E-42BA-860D-A036F1E9DBD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBE0BBFE-7CE3-45CD-BB61-47BB3C6EFCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE0BBFE-7CE3-45CD-BB61-47BB3C6EFCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE0BBFE-7CE3-45CD-BB61-47BB3C6EFCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE0BBFE-7CE3-45CD-BB61-47BB3C6EFCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA74A1CB-D991-4618-A2E8-1F890DB46556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA74A1CB-D991-4618-A2E8-1F890DB46556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA74A1CB-D991-4618-A2E8-1F890DB46556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA74A1CB-D991-4618-A2E8-1F890DB46556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F1DD21-2E92-4816-B14E-DDB428C44F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F1DD21-2E92-4816-B14E-DDB428C44F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F1DD21-2E92-4816-B14E-DDB428C44F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F1DD21-2E92-4816-B14E-DDB428C44F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4E9DFD-CB8E-42BA-860D-A036F1E9DBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4E9DFD-CB8E-42BA-860D-A036F1E9DBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4E9DFD-CB8E-42BA-860D-A036F1E9DBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4E9DFD-CB8E-42BA-860D-A036F1E9DBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0B0C8A5-E42B-4E4D-863D-B33B2BF461F5}
+	EndGlobalSection
+EndGlobal
