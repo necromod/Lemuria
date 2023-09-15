@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lemuria</title>
+    <link href="img/safe.png" rel="icon">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500&display=swap"
+        rel="stylesheet">
+</head>
+<!--alt+shift+f identar o codigo-->
+<!--ctrl + ; comenta o codigo-->
+
+<body>
+    <div class="container">
+        <div class="navbar-container" id="menu">
+            <nav>
+                <a href="#"><img class="logo" src="img/logoLemuria.png"></a>
+                <ul class="navbar-itens">
+                    <li><a href="#section-home" title="Login">Home</a></li>
+                    <li><a href="#section-specialities">Specialities</a></li>
+                    <li><a href="#section-plan">Plans</a></li>
+                    <li><a href="#section-searchdomain">Search domain</a></li>
+                    <li><a href="#section-localization">Localization</a></li>
+                    <li><a href="#section-contact">Contact</a></li>
+                    <li><a href="login.html" class="default-btn">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section id="section-home">
+                <div class="main-banner">
+                        <h1>Lemuria</h1>
+                        <p>The best plans for your project</p>
+                </div>
+            </section>
+
+            <section class="specialties-container">
+                <h2 id="section-specialities">Specialities</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                <ul>
+                    <li>
+                        <img src="img/safe.png">
+                        <h3>Security</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit tempor sapien, nec
+                            ornare eros sodales sed. Nam lobortis a nunc ut consectetur.
+                        </p>
+                    </li>
+
+                    <li>
+                        <img src="img/speed.png">
+                        <h3>Velocity</h3>
+                        <p>
+                            Quisque tempor enim diam, id blandit arcu malesuada sed. In et mi blandit, porttitor lacus
+                            in, dapibus lacus. Aenean porttitor purus sed purus tincidunt pulvinar.
+                        </p>
+                    </li>
+
+                    <li>
+                        <img src="img/support.png">
+                        <h3>Support</h3>
+                        <p>
+                            Nunc metus enim, dignissim vel ultrices tempus, porttitor a velit. Suspendisse ligula orci,
+                            placerat quis elit sit amet, feugiat placerat leo.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pricing-container">
+                <h2 id="section-plan">Prices and plans</h2>
+                <p>
+                    Cras odio orci, fermentum vel congue sit amet, imperdiet id erat. Donec consectetur tincidunt nunc
+                    eu imperdiet. Mauris vel libero quis ex congue placerat.
+                </p>
+                <div class="plans-container">
+                    
+                    <!-- INÍCIO - cards Planos  -->
+
+                    <!-- card 1 -->
+                    <!-- <div class="plan-card">
+                        <ul>
+                            <li class="plan-price">US$ 1.06</li>
+                            <li class="plan-name">Standard</li>
+                            <li>2GB of space in disk</li>
+                            <li>10 Sub-domains</li>
+                            <li>25 Email accounts</li>
+                            <li>C-panel</li>
+                            <li><a class="default-btn" href="#">Select</a></li>
+                        </ul>
+                    </div> -->
+
+                   
+                    
+                    <!-- FIM - cards Planos  -->
+
+                </div>
+            </section>
+
+            <section class="searchdomain-container">
+               
+                    <h2 id="section-searchdomain">Search domain</h2>
+                    <p>Check if the domain is available for use</p>
+             
+                <form>
+                    <input type="text" name="domain" placeholder="Enter your domain">
+                    <input type="submit" value="Search">
+                </form>
+            </section>
+
+            <section class="localization-container">
+                <h2 id="section-localization">Localization</h2>
+                    <p>Try to find us</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.6710004546344!2d-46.85326358529387!3d-23.50835688470919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0189d8cb8661%3A0x2f228bc98659573b!2sR.%20Cear%C3%A1%2C%2035%20-%20Alphaville%20Empresarial%2C%20Barueri%20-%20SP%2C%2006465-120!5e0!3m2!1spt-BR!2sbr!4v1654370469380!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </section>
+
+            <section class="contact-container">
+             
+                    <h2 id="section-contact">Contact</h2>
+                    <p>Send your message</p>
+               
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <textarea name="message" id="message" placeholder="Send your message"></textarea>
+                    <input type="button" id="btnEnviar" value="Send">
+                    <input type="reset" value="Cancel">
+                </form>
+
+            </section>
+        </main>
+        <footer>
+            <section class="footer-container">
+                <p>Satan Copyright © 2022</p>
+            </section>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
