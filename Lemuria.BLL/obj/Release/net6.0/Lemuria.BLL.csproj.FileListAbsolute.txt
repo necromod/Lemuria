@@ -1,0 +1,15 @@
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\bin\Release\net6.0\Lemuria.BLL.deps.json
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\bin\Release\net6.0\Lemuria.BLL.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\bin\Release\net6.0\Lemuria.BLL.pdb
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\bin\Release\net6.0\Lemuria.DTO.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\bin\Release\net6.0\Lemuria.DTO.pdb
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.csproj.AssemblyReference.cache
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.AssemblyInfoInputs.cache
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.AssemblyInfo.cs
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.csproj.CoreCompileInputs.cache
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.csproj.CopyComplete
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\refint\Lemuria.BLL.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\Lemuria.BLL.pdb
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.BLL\obj\Release\net6.0\ref\Lemuria.BLL.dll

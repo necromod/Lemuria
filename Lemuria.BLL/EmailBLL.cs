@@ -1,7 +1,13 @@
-﻿using Lemuria.DTO;
-using System.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Mail;
+using System.Text;
+using System.Threading.Tasks;
+using Lemuria.DTO;
+
+
 
 namespace Lemuria.BLL
 {
@@ -9,35 +15,34 @@ namespace Lemuria.BLL
     {
         public void EnviarEmail(MensagemDTO mensagem)
         {
-            //preparar o conteudo do email
+            //Preparar conteúdo do email
             string body = "";
             body += "<b>Nome: </b> " + mensagem.Nome + "<br>";
             body += "<b>E-mail: </b> " + mensagem.Email + "<br>";
             body += "<b>Mensagem: </b> " + mensagem.Mensagem + "<br>";
-            body += "<b>Data do Envio: </b> " + DateTime.Now.ToString("dd/MM/yy hh:mm");
+            body += "<b>Data do Envio: </b> " + DateTime.Now.ToString("dd/mm/yy hh:mm");
 
-            //Preparar o e-mail (mensagem) a ser enviado
+            //criar mensagem email
             MailMessage msg = new MailMessage();
             //Remetente
-            msg.From = new MailAddress(mensagem.Email, mensagem.Nome);
-            //Destinatário
-            msg.To.Add(new MailAddress("profronicosta@gmail.com"));
+            msg.From = new MailAddress(mensagem.Email, mensagem.Email);
+            //Destinarário
+            msg.To.Add(new MailAddress("forteamsenac@outlook.com"));
             //Assunto
             msg.Subject = "Contato via site - " + mensagem.Nome;
-            //Corpo do E-mail
+            //Corpo do email
             msg.Body = body;
-            //Indica que a msg é html
+            //Indica que a msg é thml
             msg.IsBodyHtml = true;
 
-
-            //configura o servidor SMTP
+            //Configurar servidor SMPT
             SmtpClient smtp = new SmtpClient();
             //dados do servidor de e-mail
-            smtp.Host = "smtp.gmail.com";
-            smtp.Port = 587;
+            smtp.Host = "smtp-mail.outlook.com";
+            smtp.Port = 25;
             smtp.EnableSsl = true;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new NetworkCredential("profronicosta@gmail.com", "cqoyeaaqiuyxyrrx");
+            smtp.Credentials = new NetworkCredential("forteamsenac@outlook.com", "ifwdalfmnjanwuaa");
 
             //Fazer o envio
             try
@@ -46,9 +51,8 @@ namespace Lemuria.BLL
             }
             catch (Exception erro)
             {
-               throw new Exception(erro.Message);
+                 throw new Exception(erro.Message);
             }
         }
-
-    }
+     }
 }

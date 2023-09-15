@@ -1,0 +1,12 @@
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\bin\Release\net6.0\Lemuria.DTO.deps.json
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\bin\Release\net6.0\Lemuria.DTO.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\bin\Release\net6.0\Lemuria.DTO.pdb
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.csproj.AssemblyReference.cache
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.AssemblyInfoInputs.cache
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.AssemblyInfo.cs
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.csproj.CoreCompileInputs.cache
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\refint\Lemuria.DTO.dll
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\Lemuria.DTO.pdb
+C:\Users\edimilson.rsilva\source\repos\Lemuria\Lemuria.DTO\obj\Release\net6.0\ref\Lemuria.DTO.dll
